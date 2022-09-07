@@ -1,12 +1,14 @@
 package com.speedup.qa.stepdefinitions;
 
 import com.speedup.qa.models.CredentialData;
+import com.speedup.qa.questions.Login;
 import com.speedup.qa.tasks.LoginUser;
 import com.speedup.qa.tasks.OpenBrowser;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.Cast;
 import net.serenitybdd.screenplay.actors.OnStage;
@@ -34,14 +36,14 @@ public class loginStepDefinitions {
         OnStage.theActorInTheSpotlight().wasAbleTo(OpenBrowser.browser());
         }
 
-
     @When("^he complete the information for the login$")
     public void heCompleteTheInformationForTheLogin(List<CredentialData> data) {
         OnStage.theActorInTheSpotlight().attemptsTo(LoginUser.withdata(data.get(0)));
     }
 
-    @Then("^the user can see the name$")
-    public void theUserCanSeeTheName() {
-
+    @Then("^the user can see the name (.*)$")
+    public void theUserCanSeeTheName(String nameUser) {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Login.message(), org.hamcrest.Matchers.is(nameUser)));
     }
+
 }

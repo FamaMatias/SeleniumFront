@@ -15,4 +15,13 @@ public class Login {
     public static final Target USER_PASSWORD = Target
             .the("Se ingresa la contraseña (email)")
             .located(By.name("session_password"));
+
+    public static final Target VALIDATE_LOGIN = Target
+            .the("Validar el login")
+            .located(By.xpath("//div[@class='t-16 t-black t-bold']"));
+
+    public static final Target LOGIN_OK = Target
+            .the("Validar el login")
+            .located(By.className("login__form_action_container"));
+
 }

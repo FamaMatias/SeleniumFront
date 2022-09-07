@@ -12,6 +12,7 @@ public class OpenBrowser implements Task {
         actor.attemptsTo(Open.url("https://www.linkedin.com/"));
     }
     public static OpenBrowser browser(){
+
         return Tasks.instrumented(OpenBrowser.class);
     }
 }

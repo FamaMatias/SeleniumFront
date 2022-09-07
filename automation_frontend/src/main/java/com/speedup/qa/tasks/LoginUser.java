@@ -18,10 +18,12 @@ public class LoginUser implements Task {
     public <T extends Actor> void performAs(T actor) {
     actor.attemptsTo(Click.on(ENTER_LOGIN_SCREEN));
     actor.attemptsTo(Enter.theValue(credentialData.getUser()).into(USER_NAME));
-        actor.attemptsTo(Enter.theValue(credentialData.getPassword()).into(USER_PASSWORD));
+    actor.attemptsTo(Enter.theValue(credentialData.getPassword()).into(USER_PASSWORD));
+    actor.attemptsTo(Click.on(LOGIN_OK));
     }
 
     public static LoginUser withdata(CredentialData credentialData){
+
         return new LoginUser(credentialData);
     }
 }
