@@ -12,5 +12,4 @@ public class AddJob {
     public static final Target VIEW_PROFILE = Target
             .the("Selecciona la visualizacion del perfil")
             .located(By.linkText("View Profile"));
-
 }
