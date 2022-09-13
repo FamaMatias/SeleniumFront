@@ -7,9 +7,10 @@ public class AddJob {
 
     public static final Target USER = Target
             .the("Selecciona el boton de la foto")
-            .located(By.id("ember16"));
+            .located(By.linkText("Welcome, Matias!"));
 
-    public static final Target VIEW_PROFILE = Target
-            .the("Selecciona la visualizacion del perfil")
-            .located(By.linkText("View Profile"));
+    public static final Target ADD_JOB = Target
+            .the("Seleccionar añadir experiencia")
+            .located(By.xpath("//li-icon[@aria-label='Add new education']"));
+
 }

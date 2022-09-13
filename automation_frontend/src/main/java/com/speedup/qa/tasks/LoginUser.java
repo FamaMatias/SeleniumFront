@@ -1,5 +1,6 @@
 package com.speedup.qa.tasks;
 
+import com.speedup.qa.interaction.WaitInteraction;
 import com.speedup.qa.models.CredentialData;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

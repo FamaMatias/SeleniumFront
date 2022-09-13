@@ -21,7 +21,7 @@ public class Login {
             .located(By.xpath("//div[@class='t-16 t-black t-bold']"));
 
     public static final Target LOGIN_OK = Target
-            .the("Validar el login")
+            .the("Validar ingreso")
             .located(By.className("login__form_action_container"));
 
 }

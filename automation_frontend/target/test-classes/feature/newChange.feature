@@ -9,7 +9,6 @@ Feature: Enter position
       | User                    | Password            |
       | famamatias.qa@gmail.com | Mati123456          |
 
-
     Scenario: Registrer a new charge
       When Add a new job
       Then I should see in the profile

@@ -1,0 +1,7 @@
+com/speedup/qa/questions/Login.class
+com/speedup/qa/tasks/OpenBrowser.class
+com/speedup/qa/userinterface/Login.class
+com/speedup/qa/tasks/LoginUser.class
+com/speedup/qa/tasks/AddJob.class
+com/speedup/qa/userinterface/AddJob.class
+com/speedup/qa/models/CredentialData.class
