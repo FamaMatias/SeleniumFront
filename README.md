@@ -30,7 +30,6 @@
 * In compliance with the pattern <u>SOLID</u>
 
 ```bash
-
 src 
  |--main
  |    |--java
@@ -63,8 +62,8 @@ src
  |           . login.feature
  |           . newCharge.feature
  |--target
- |    |--site
-           . index.html  
+      |--site
+          . index.html  
 ```
 ***
 <a name="tools"></a>
