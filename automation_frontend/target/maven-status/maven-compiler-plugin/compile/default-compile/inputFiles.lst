@@ -1,7 +1,10 @@
-/home/mati/Desktop/Selenium Front/automation_frontend/src/main/java/com/speedup/qa/tasks/AddJob.java
-/home/mati/Desktop/Selenium Front/automation_frontend/src/main/java/com/speedup/qa/models/CredentialData.java
-/home/mati/Desktop/Selenium Front/automation_frontend/src/main/java/com/speedup/qa/questions/Login.java
-/home/mati/Desktop/Selenium Front/automation_frontend/src/main/java/com/speedup/qa/tasks/OpenBrowser.java
-/home/mati/Desktop/Selenium Front/automation_frontend/src/main/java/com/speedup/qa/userinterface/AddJob.java
-/home/mati/Desktop/Selenium Front/automation_frontend/src/main/java/com/speedup/qa/userinterface/Login.java
-/home/mati/Desktop/Selenium Front/automation_frontend/src/main/java/com/speedup/qa/tasks/LoginUser.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\models\DataJob.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\models\CredentialData.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\userinterface\AddJob.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\questions\Login.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\userinterface\Login.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\tasks\AddNewJob.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\interaction\WaitInteraction.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\tasks\OpenBrowser.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\interaction\ScrollDown.java
+C:\Users\usuar\Desktop\Selenium Front\automation_frontend\src\main\java\com\speedup\qa\tasks\LoginUser.java

@@ -1,4 +1,4 @@
-com/speedup/qa/stepdefinitions/newChargeStepsDefinitions.class
-com/speedup/qa/stepdefinitions/loginStepDefinitions.class
-com/speedup/qa/runners/loginRunners.class
-com/speedup/qa/runners/newChargeRunners.class
+com\speedup\qa\runners\loginRunners.class
+com\speedup\qa\runners\newChargeRunners.class
+com\speedup\qa\stepdefinitions\newChargeStepsDefinitions.class
+com\speedup\qa\stepdefinitions\loginStepDefinitions.class

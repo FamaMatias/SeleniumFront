@@ -11,4 +11,7 @@ Feature: Enter position
 
     Scenario: Registrer a new charge
       When Add a new job
+      |Title                  | Employment type |CompanyName |Location         | Month | Year |Industry                      | Description               |
+      |QA Automation Engineer | Full-time       |SpeedUpTech |Quindío, Colombia| May   | 2022 |IT Services and IT Consulting | Automatizacion de pruebas |
+
       Then I should see in the profile
