@@ -35,10 +35,10 @@ public class AddJob {
 
     public static final Target MONTH = Target
             .the("Seleccion mes")
-            .locatedBy("(//select[@name='month'])[1]");
+            .locatedBy("//select[@name='month']//option[@value='{0}']");
     public static final Target YEAR = Target
             .the("Seleccion año")
-            .locatedBy("(//select[@name='year'])[1]");
+            .locatedBy("//select[@name='year']//option[@value='{0}']");
 
     public static final Target INDUSTRY = Target
             .the("Label industria")

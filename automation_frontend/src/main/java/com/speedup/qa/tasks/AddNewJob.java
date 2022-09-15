@@ -28,9 +28,9 @@ public class AddNewJob implements Task {
         actor.attemptsTo(Click.on(EMPLOYMENT_TYPE.of(dataJob.getEmploymentType())));
         actor.attemptsTo(Enter.theValue(dataJob.getCompanyName()).into(COMPANY_NAME));
         actor.attemptsTo(Enter.theValue(dataJob.getLocation()).into(LOCATION));
-        actor.attemptsTo(Enter.theValue(dataJob.getIndustry()).into(INDUSTRY));
         actor.attemptsTo(Click.on(MONTH.of(dataJob.getMonth())));
         actor.attemptsTo(Click.on(YEAR.of(dataJob.getYear())));
+        actor.attemptsTo(Enter.theValue(dataJob.getIndustry()).into(INDUSTRY));
         actor.attemptsTo(Enter.theValue(dataJob.getDescription()).into(DESCRIPTION));
         actor.attemptsTo(Click.on(SAVE));
     }
