@@ -14,7 +14,7 @@
 
 
 <a name="general-info"></a>
-1. ### What I am going to do? :mag_right:
+1. What I am going to do? :mag_right:
 
 ***
 
@@ -30,6 +30,7 @@
 * In compliance with the pattern <u>SOLID</u>
 
 ```bash
+
 src 
  |--main
  |    |--java
@@ -65,11 +66,9 @@ src
  |    |--site
            . index.html  
 ```
-
-
 ***
 <a name="tools"></a>
-2. ### Tools :briefcase:
+2. Tools :briefcase:
 
 * [Intellij IDEA](https://www.jetbrains.com/es-es/idea/)
 * [POM]()
@@ -236,7 +235,7 @@ OS : Windos 10
 ```
 ***
 <a name="execution"></a>
-3. ### Execution :keyboard:
+3. Execution :keyboard:
 
 In compliance with the SOLID principles, we must carry out the execution according to the functionality that we want to see:
 
@@ -246,7 +245,7 @@ In compliance with the SOLID principles, we must carry out the execution accordi
 | newCharge           | newCharge.feature |
 ***
 <a name="reports"></a>
-4. ### How to see reports? :computer:
+4. How to see reports? :computer:
 
 To see the report we must place the following command in the terminal
 ```bash
